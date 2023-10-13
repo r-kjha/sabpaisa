@@ -69,7 +69,7 @@ const App = (props) => {
                   required
                   type="email"
                   placeholder="Email :"
-                  value={payerName}
+                  value={payerEmail}
                   className="w-[90%] md:w-[400px] border-[3px] border-black rounded-[3px] p-2 py-1 text-[15px]"
                   onChange={(e) => setPayerEmail(e.target.value)}
                 />
@@ -85,7 +85,7 @@ const App = (props) => {
                   required
                   type="phone"
                   placeholder="Phone :"
-                  value={payerName}
+                  value={payerMobile}
                   className="w-[90%] md:w-[400px] border-[3px] border-black rounded-[3px] p-2 py-1 text-[15px]"
                   onChange={(e) => setPayerMobile(e.target.value)}
                 />
@@ -101,7 +101,7 @@ const App = (props) => {
                   required
                   type="address"
                   placeholder="Address :"
-                  value={payerName}
+                  value={payerAddress}
                   className="w-[90%] md:w-[400px] border-[3px] border-black rounded-[3px] p-2 py-1 text-[15px]"
                   onChange={(e) => setPayerAddress(e.target.value)}
                 />
@@ -118,7 +118,7 @@ const App = (props) => {
                   required
                   type="amount"
                   placeholder="Amount :"
-                  value={payerName}
+                  value={amount}
                   className="w-[90%] md:w-[400px] border-[3px] border-black rounded-[3px] p-2 py-1 text-[15px]"
                   onChange={(e) => setAmount(e.target.value)}
                 />
